@@ -37,7 +37,6 @@ function App() {
       </section>
       <section className="section section-superior container-standard results">
       {data && data.map(function(element, idx){
-        console.log(element)
         return (
           <Card key={idx} data={element} />
         )
