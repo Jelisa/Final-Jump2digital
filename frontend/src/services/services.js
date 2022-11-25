@@ -21,7 +21,7 @@ export function cleanObject(element) {
 
 export async function fetchAnimals(url) {
   let result;
-  try {
+
     result = await fetch(url)
       .then(function onFulfillment(responseObject) {
         let objectCleaned = responseObject.map((element) =>
@@ -32,9 +32,5 @@ export async function fetchAnimals(url) {
       .catch(function onRejection(responseObject) {
         console.log(responseObject);
       });
-  } catch (error) {
-    throw new Error(error);
-  }
-
   return result;
 }
