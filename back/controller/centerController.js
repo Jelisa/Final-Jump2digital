@@ -1,8 +1,9 @@
 const center_info = require("../data/centros2.json")
+const venta = require("../data/venta.json")
 const respuestas = require("../services/responseModule")
 const {pagination,tranformToArray} = require("../helper/helper")
 
-const centerInfoController = (req,res)=>{
+const centersInfoController = (req,res)=>{
     try{
         const patata = tranformToArray(center_info)
         const {pages} = req.query
@@ -14,4 +15,14 @@ const centerInfoController = (req,res)=>{
     }
 }
 
-module.exports={centerInfoController}
+const centerInfoController = (req,res)=>{
+    const {id} = req.params
+    const obj = venta[id.toString()]
+    Object.values(obj)
+    respuestas.success(req,res,obj)
+}
+
+module.exports={
+    centersInfoController,
+    centerInfoController
+}
