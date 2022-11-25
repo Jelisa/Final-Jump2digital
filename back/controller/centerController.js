@@ -1,16 +1,29 @@
-const center_info = require("../data/center_info.json")
+const center_info = require("../data/centros2.json")
 const respuestas = require("../services/responseModule")
 
 const centerInfoController = (req,res)=>{
     try{
+
+        const data = center_info
+        const longitud = Object.keys(data)
+
+        const patata = longitud.map(elemento => {
+            data[elemento].id = elemento
+            return data[elemento]
+        })
+
+
         const {pages} = req.query
         const nElements = pages*20
-        if(center_info.length > nElements-20){
-            const data = center_info.slice(nElements-20,nElements)
-            respuestas.success(req,res,data)
+        if(patata.length > nElements-5){
+            const data2 = patata.slice(nElements-5,nElements)
+            respuestas.success(req,res,data2)
         }else{
             respuestas.error(req,res,"no existe mas elementos")
         }
+
+
+
     }
     catch {
         respuestas.error(req,res,"error de servidor")
