@@ -1,10 +1,10 @@
 const {Router} = require('express');
-
+const {centerInfoController} = require('../controller/centerController');
 const router = Router();
 
-// router.get("/api/v1/");
-router.get('/api/v1/centros', () => console.log("TODO"));
-router.get('/api/v1/productos', () => console.log("TODO"));
+
+router.get('/centros', centerInfoController);
+router.get('/productos', () => console.log("TODO"));
 
 
 module.exports = {router}
