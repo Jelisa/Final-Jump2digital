@@ -17,22 +17,21 @@ function App() {
 
   return (
     <div className="App">
-
       <h1 className="section heading">Products</h1>
       <section className="section section-superior container-standard ">
        <Select
-          textAttribute={"Filter A"}
+          textAttribute={"Filter by types"}
           isDisabled={false}
           value={select}
           handleSelect={setSelect}
-          arrayForOptions={["1", "2","3"]}
+          arrayForOptions={["Categories", "Products"]}
         />
         <Select
-          textAttribute={"Filter B"}
+          textAttribute={"Filter by strategy"}
           isDisabled={false}
           value={select}
           handleSelect={setSelect}
-          arrayForOptions={["1", "2","3"]}
+          arrayForOptions={["Email", "Featured"]}
         />    
       </section>
       <section className="section section-superior container-standard results">
@@ -45,5 +44,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

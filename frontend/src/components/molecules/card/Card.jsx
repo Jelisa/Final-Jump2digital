@@ -1,17 +1,27 @@
 import { Modal } from "./Modal.jsx";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import axios from 'axios';
+import { GraficoGalleta } from "./graficoGalleta.js"
 
 
 export function Card(prop) {
   const [data, setData] = useState([]);
-
   const [modal, setModal] = useState(false);
-  async function toggleModal (id) {
+
+  function toggleModal () {
     setModal(!modal);
-    let result = await axios(`http://localhost:4000/api/v1/centros/${id}`);
-    // setData(result)
-  } 
+  }
+
+  useEffect(function(){
+    fetchData()
+    async function fetchData () {
+        let result = await axios(`http://localhost:4000/api/v1/centros/${prop.data.id}`);
+        setData(result.data.body)
+        console.log(data)
+  }
+  // eslint-disable-next-line
+  },[modal]); 
+  
   return (
     <>
       <article className="card">
@@ -29,15 +39,24 @@ export function Card(prop) {
         </div>
       </article>
           {modal ? (
-          <Modal>  
+          <Modal> 
+            <div className="modalDetalles">
             <h2>Center ID {prop.data.id}</h2>
-            <p>{prop.data.Ren}</p>
-            <p>{prop.data.Vent_of}</p>
-            <p>{prop.data.b_ven_of}</p>
-            <p>{prop.data.id}</p>
-            <p>{prop.data.pre_venta}</p>
-            <p>{prop.data.venta}</p>
-            <button onClick={toggleModal}>Close</button>
+              <ul>
+                 <li>Biryani {data.Biryani}</li>
+                 <li>Beverages {data.Beverages}</li>
+                 <li> Desert {data.Desert}</li>
+                 <li>Extras {data.Extras}</li>
+                 <li>Fish {data.Fish}</li>
+                 <li>Pasta {data.Pasta}</li>
+                 <li>Pizza {data.Pizza}</li>
+                 <li>Salad {data.Salad}</li>
+                 <li>Seafood {data.Seafood}</li>
+                 <li>Soup {data.Soup}</li>
+                 <li>Starters {data.Starters}</li>
+              </ul>
+            <button className="card__button" onClick={toggleModal}>Close</button>
+            </div>
           </Modal>
         ) : null}
     </>

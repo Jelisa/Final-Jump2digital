@@ -209,6 +209,13 @@ ul {
   border: 1px solid var(--clr-neutral-500);
 }
 
+.modalDetalles {
+  width: 50vw;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: white;
+}
+
 @keyframes toFront {
   from {
     opacity: 0%;
