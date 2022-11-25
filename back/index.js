@@ -1,5 +1,5 @@
 const express = require('express');
-const router = require('./routes/routes.js')
+const {router} = require('./routes/routes.js')
 const { join } = require('path');
 
 const PORT = process.env.PORT || 4000;
