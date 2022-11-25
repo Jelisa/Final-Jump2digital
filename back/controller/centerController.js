@@ -1,6 +1,6 @@
 const center_info = require("../data/center_info.json")
 
-const centerInfoController = ()=>{
+const centerInfoController = (req,res)=>{
     const data = center_info.slice(0,10)
     console.log(data);
     return data
