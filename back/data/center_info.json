@@ -1,0 +1,541 @@
+[
+  {
+    "center_id": 11,
+    "city_code": 679,
+    "region_code": 56,
+    "center_type": "TYPE_A",
+    "op_area": 3.7
+  },
+  {
+    "center_id": 13,
+    "city_code": 590,
+    "region_code": 56,
+    "center_type": "TYPE_B",
+    "op_area": 6.7
+  },
+  {
+    "center_id": 124,
+    "city_code": 590,
+    "region_code": 56,
+    "center_type": "TYPE_C",
+    "op_area": 4
+  },
+  {
+    "center_id": 66,
+    "city_code": 648,
+    "region_code": 34,
+    "center_type": "TYPE_A",
+    "op_area": 4.1
+  },
+  {
+    "center_id": 94,
+    "city_code": 632,
+    "region_code": 34,
+    "center_type": "TYPE_C",
+    "op_area": 3.6
+  },
+  {
+    "center_id": 64,
+    "city_code": 553,
+    "region_code": 77,
+    "center_type": "TYPE_A",
+    "op_area": 4.4
+  },
+  {
+    "center_id": 129,
+    "city_code": 593,
+    "region_code": 77,
+    "center_type": "TYPE_A",
+    "op_area": 3.9
+  },
+  {
+    "center_id": 139,
+    "city_code": 693,
+    "region_code": 34,
+    "center_type": "TYPE_C",
+    "op_area": 2.8
+  },
+  {
+    "center_id": 88,
+    "city_code": 526,
+    "region_code": 34,
+    "center_type": "TYPE_A",
+    "op_area": 4.1
+  },
+  {
+    "center_id": 143,
+    "city_code": 562,
+    "region_code": 77,
+    "center_type": "TYPE_B",
+    "op_area": 3.8
+  },
+  {
+    "center_id": 101,
+    "city_code": 699,
+    "region_code": 85,
+    "center_type": "TYPE_C",
+    "op_area": 2.8
+  },
+  {
+    "center_id": 86,
+    "city_code": 699,
+    "region_code": 85,
+    "center_type": "TYPE_C",
+    "op_area": 4
+  },
+  {
+    "center_id": 32,
+    "city_code": 526,
+    "region_code": 34,
+    "center_type": "TYPE_A",
+    "op_area": 3.8
+  },
+  {
+    "center_id": 149,
+    "city_code": 478,
+    "region_code": 77,
+    "center_type": "TYPE_A",
+    "op_area": 2.4
+  },
+  {
+    "center_id": 152,
+    "city_code": 576,
+    "region_code": 34,
+    "center_type": "TYPE_B",
+    "op_area": 4
+  },
+  {
+    "center_id": 92,
+    "city_code": 526,
+    "region_code": 34,
+    "center_type": "TYPE_C",
+    "op_area": 2.9
+  },
+  {
+    "center_id": 27,
+    "city_code": 713,
+    "region_code": 85,
+    "center_type": "TYPE_A",
+    "op_area": 4.5
+  },
+  {
+    "center_id": 14,
+    "city_code": 654,
+    "region_code": 56,
+    "center_type": "TYPE_C",
+    "op_area": 2.7
+  },
+  {
+    "center_id": 26,
+    "city_code": 515,
+    "region_code": 77,
+    "center_type": "TYPE_C",
+    "op_area": 3
+  },
+  {
+    "center_id": 104,
+    "city_code": 647,
+    "region_code": 56,
+    "center_type": "TYPE_A",
+    "op_area": 4.5
+  },
+  {
+    "center_id": 77,
+    "city_code": 676,
+    "region_code": 34,
+    "center_type": "TYPE_A",
+    "op_area": 3.8
+  },
+  {
+    "center_id": 23,
+    "city_code": 698,
+    "region_code": 23,
+    "center_type": "TYPE_A",
+    "op_area": 3.4
+  },
+  {
+    "center_id": 97,
+    "city_code": 628,
+    "region_code": 77,
+    "center_type": "TYPE_A",
+    "op_area": 4.6
+  },
+  {
+    "center_id": 146,
+    "city_code": 526,
+    "region_code": 34,
+    "center_type": "TYPE_B",
+    "op_area": 5
+  },
+  {
+    "center_id": 113,
+    "city_code": 680,
+    "region_code": 77,
+    "center_type": "TYPE_C",
+    "op_area": 4
+  },
+  {
+    "center_id": 145,
+    "city_code": 620,
+    "region_code": 77,
+    "center_type": "TYPE_A",
+    "op_area": 3.9
+  },
+  {
+    "center_id": 80,
+    "city_code": 604,
+    "region_code": 56,
+    "center_type": "TYPE_C",
+    "op_area": 5.1
+  },
+  {
+    "center_id": 55,
+    "city_code": 647,
+    "region_code": 56,
+    "center_type": "TYPE_C",
+    "op_area": 2
+  },
+  {
+    "center_id": 186,
+    "city_code": 649,
+    "region_code": 34,
+    "center_type": "TYPE_A",
+    "op_area": 3.4
+  },
+  {
+    "center_id": 99,
+    "city_code": 596,
+    "region_code": 71,
+    "center_type": "TYPE_A",
+    "op_area": 4.5
+  },
+  {
+    "center_id": 91,
+    "city_code": 590,
+    "region_code": 56,
+    "center_type": "TYPE_C",
+    "op_area": 0.9
+  },
+  {
+    "center_id": 20,
+    "city_code": 522,
+    "region_code": 56,
+    "center_type": "TYPE_A",
+    "op_area": 4
+  },
+  {
+    "center_id": 106,
+    "city_code": 675,
+    "region_code": 34,
+    "center_type": "TYPE_A",
+    "op_area": 4
+  },
+  {
+    "center_id": 81,
+    "city_code": 526,
+    "region_code": 34,
+    "center_type": "TYPE_A",
+    "op_area": 4
+  },
+  {
+    "center_id": 73,
+    "city_code": 576,
+    "region_code": 34,
+    "center_type": "TYPE_A",
+    "op_area": 4
+  },
+  {
+    "center_id": 29,
+    "city_code": 526,
+    "region_code": 34,
+    "center_type": "TYPE_C",
+    "op_area": 4
+  },
+  {
+    "center_id": 43,
+    "city_code": 590,
+    "region_code": 56,
+    "center_type": "TYPE_A",
+    "op_area": 5.1
+  },
+  {
+    "center_id": 102,
+    "city_code": 593,
+    "region_code": 77,
+    "center_type": "TYPE_A",
+    "op_area": 2.8
+  },
+  {
+    "center_id": 61,
+    "city_code": 473,
+    "region_code": 77,
+    "center_type": "TYPE_A",
+    "op_area": 4.5
+  },
+  {
+    "center_id": 50,
+    "city_code": 556,
+    "region_code": 77,
+    "center_type": "TYPE_A",
+    "op_area": 4.8
+  },
+  {
+    "center_id": 83,
+    "city_code": 659,
+    "region_code": 77,
+    "center_type": "TYPE_A",
+    "op_area": 5.3
+  },
+  {
+    "center_id": 57,
+    "city_code": 541,
+    "region_code": 77,
+    "center_type": "TYPE_C",
+    "op_area": 2.8
+  },
+  {
+    "center_id": 126,
+    "city_code": 577,
+    "region_code": 56,
+    "center_type": "TYPE_A",
+    "op_area": 2.7
+  },
+  {
+    "center_id": 177,
+    "city_code": 683,
+    "region_code": 56,
+    "center_type": "TYPE_A",
+    "op_area": 3.4
+  },
+  {
+    "center_id": 67,
+    "city_code": 638,
+    "region_code": 56,
+    "center_type": "TYPE_B",
+    "op_area": 7
+  },
+  {
+    "center_id": 174,
+    "city_code": 700,
+    "region_code": 56,
+    "center_type": "TYPE_A",
+    "op_area": 7
+  },
+  {
+    "center_id": 59,
+    "city_code": 456,
+    "region_code": 56,
+    "center_type": "TYPE_A",
+    "op_area": 4.2
+  },
+  {
+    "center_id": 58,
+    "city_code": 695,
+    "region_code": 77,
+    "center_type": "TYPE_C",
+    "op_area": 3.8
+  },
+  {
+    "center_id": 65,
+    "city_code": 602,
+    "region_code": 34,
+    "center_type": "TYPE_A",
+    "op_area": 4.8
+  },
+  {
+    "center_id": 39,
+    "city_code": 526,
+    "region_code": 34,
+    "center_type": "TYPE_C",
+    "op_area": 3.8
+  },
+  {
+    "center_id": 132,
+    "city_code": 522,
+    "region_code": 56,
+    "center_type": "TYPE_A",
+    "op_area": 3.9
+  },
+  {
+    "center_id": 89,
+    "city_code": 703,
+    "region_code": 56,
+    "center_type": "TYPE_A",
+    "op_area": 4.8
+  },
+  {
+    "center_id": 162,
+    "city_code": 526,
+    "region_code": 34,
+    "center_type": "TYPE_C",
+    "op_area": 2
+  },
+  {
+    "center_id": 75,
+    "city_code": 651,
+    "region_code": 77,
+    "center_type": "TYPE_B",
+    "op_area": 4.7
+  },
+  {
+    "center_id": 72,
+    "city_code": 638,
+    "region_code": 56,
+    "center_type": "TYPE_C",
+    "op_area": 3.9
+  },
+  {
+    "center_id": 41,
+    "city_code": 590,
+    "region_code": 56,
+    "center_type": "TYPE_C",
+    "op_area": 1.9
+  },
+  {
+    "center_id": 10,
+    "city_code": 590,
+    "region_code": 56,
+    "center_type": "TYPE_B",
+    "op_area": 6.3
+  },
+  {
+    "center_id": 110,
+    "city_code": 485,
+    "region_code": 77,
+    "center_type": "TYPE_A",
+    "op_area": 3.8
+  },
+  {
+    "center_id": 52,
+    "city_code": 685,
+    "region_code": 56,
+    "center_type": "TYPE_B",
+    "op_area": 5.6
+  },
+  {
+    "center_id": 93,
+    "city_code": 461,
+    "region_code": 34,
+    "center_type": "TYPE_A",
+    "op_area": 3.9
+  },
+  {
+    "center_id": 74,
+    "city_code": 702,
+    "region_code": 35,
+    "center_type": "TYPE_A",
+    "op_area": 2.8
+  },
+  {
+    "center_id": 34,
+    "city_code": 615,
+    "region_code": 34,
+    "center_type": "TYPE_B",
+    "op_area": 4.2
+  },
+  {
+    "center_id": 137,
+    "city_code": 590,
+    "region_code": 56,
+    "center_type": "TYPE_A",
+    "op_area": 4.4
+  },
+  {
+    "center_id": 153,
+    "city_code": 590,
+    "region_code": 56,
+    "center_type": "TYPE_A",
+    "op_area": 3.9
+  },
+  {
+    "center_id": 24,
+    "city_code": 614,
+    "region_code": 85,
+    "center_type": "TYPE_B",
+    "op_area": 3.6
+  },
+  {
+    "center_id": 109,
+    "city_code": 599,
+    "region_code": 56,
+    "center_type": "TYPE_A",
+    "op_area": 3.6
+  },
+  {
+    "center_id": 108,
+    "city_code": 579,
+    "region_code": 56,
+    "center_type": "TYPE_B",
+    "op_area": 4.4
+  },
+  {
+    "center_id": 36,
+    "city_code": 517,
+    "region_code": 56,
+    "center_type": "TYPE_B",
+    "op_area": 4.4
+  },
+  {
+    "center_id": 157,
+    "city_code": 609,
+    "region_code": 93,
+    "center_type": "TYPE_A",
+    "op_area": 4.1
+  },
+  {
+    "center_id": 17,
+    "city_code": 517,
+    "region_code": 56,
+    "center_type": "TYPE_A",
+    "op_area": 3.2
+  },
+  {
+    "center_id": 161,
+    "city_code": 658,
+    "region_code": 34,
+    "center_type": "TYPE_B",
+    "op_area": 3.9
+  },
+  {
+    "center_id": 42,
+    "city_code": 561,
+    "region_code": 77,
+    "center_type": "TYPE_B",
+    "op_area": 3.9
+  },
+  {
+    "center_id": 53,
+    "city_code": 590,
+    "region_code": 56,
+    "center_type": "TYPE_A",
+    "op_area": 3.8
+  },
+  {
+    "center_id": 30,
+    "city_code": 604,
+    "region_code": 56,
+    "center_type": "TYPE_A",
+    "op_area": 3.5
+  },
+  {
+    "center_id": 76,
+    "city_code": 614,
+    "region_code": 85,
+    "center_type": "TYPE_A",
+    "op_area": 3
+  },
+  {
+    "center_id": 68,
+    "city_code": 676,
+    "region_code": 34,
+    "center_type": "TYPE_B",
+    "op_area": 4.1
+  },
+  {
+    "center_id": 51,
+    "city_code": 638,
+    "region_code": 56,
+    "center_type": "TYPE_A",
+    "op_area": 7
+  }
+]
