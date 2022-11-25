@@ -18,7 +18,10 @@ const centersInfoController = (req,res)=>{
 const centerInfoController = (req,res)=>{
     const {id} = req.params
     const obj = venta[id.toString()]
-    Object.values(obj)
+    const result = Object.values(obj).reduce((element,acc)=>{
+        return element+acc
+    })
+    obj.total=result
     respuestas.success(req,res,obj)
 }
 
